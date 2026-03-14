@@ -3,7 +3,7 @@ import Countries from './component/countries/Countries'
 
 const App = () => {
   return (
-    <div>
+    <div className='text-center bg-black text-white'>
       <h1>Hello react</h1>
       <Countries></Countries>
     </div>
