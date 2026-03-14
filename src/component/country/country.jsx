@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 
-const Country = ({j,handle}) => {
+const Country = ({j,handle,hh}) => {
 
     const [visited,setV] = useState(false);
 
     const a = () => {
         setV(!visited);
         handle(visited);
+        hh(j);
     }
 
     // console.log(j.cca3.cca3)
