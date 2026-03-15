@@ -4,7 +4,7 @@ import Countries from './component/countries/Countries'
 const App = () => {
   return (
     <div className='text-center bg-black text-white'>
-      <h1>Hello react</h1>
+      <h1>Umayer React Boss i am a big boy in the world</h1>
       <Countries></Countries>
     </div>
   )

@@ -5,9 +5,8 @@ const Country = ({j,handle,hh}) => {
     const [visited,setV] = useState(false);
 
     const a = () => {
-        setV(!visited);
-        handle(visited);
-        hh(j);
+        setV(c => !c);
+        handle(visited,j);
     }
 
     // console.log(j.cca3.cca3)
@@ -22,6 +21,9 @@ const Country = ({j,handle,hh}) => {
                     {
                         visited ? "Visited" : "Not Visited"
                     }
+                </button>
+                <button onClick={() => hh(j.flags.flags.png)} className='border border-yellow-200 p-3 rounded-2xl font-bold'>
+                    Add Flag
                 </button>
             </div>
         </div>
